@@ -23,7 +23,8 @@ body {
 }
 
 #game-description {
-    max-width: 600px;
+    margin-top: 10%;
+    max-width: 60%; /* Augmenté à 80% de la largeur de l'écran */
     text-align: justify;
     padding: 20px;
     background-color: var(--second-bg-color);
@@ -92,4 +93,18 @@ ul {
 
 .fiche-btn:hover {
     background-color: black;
+}
+
+.image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.image2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
