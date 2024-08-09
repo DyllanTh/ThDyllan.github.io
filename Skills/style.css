@@ -24,7 +24,7 @@ body {
 }
 
 .skills-container {
-    max-width: 600px;
+    max-width: 650px;
     width: 90%; /* Pour s'adapter à différentes tailles d'écran */
     padding: 20px;
     background-color: var(--second-bg-color);
