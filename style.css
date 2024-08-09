@@ -136,8 +136,10 @@
         margin-left: auto;
         margin-right: auto;
         width: 50%;
+        max-width: 600px; /* Maximum width the image can reach */
+        height: auto;
     }
-
+    
     .image2 {
         display: block;
         margin-left: auto;
@@ -237,7 +239,7 @@
 
     .formations {
         background: var(--second-bg-color);
-        padding: 10rem 9% 2rem;
+        padding: 9rem 9% 2rem;
         text-align: center;
     }
 
@@ -257,12 +259,12 @@
         color: var(--text-color);
         border-radius: 1rem;
         padding: 2rem;
-        margin-bottom: 2rem; /* Espacement entre les éléments de formation */
+        margin-bottom: 2.5rem; /* Espacement entre les éléments de formation */
         transition: transform 0.3s ease;
     }
     
     .formation:last-child {
-        margin-bottom: 0; /* Supprime l'espacement sous le dernier élément */
+        margin-bottom: 5.5rem; /* Supprime l'espacement sous le dernier élément */
     }
     
     .formation:hover {
@@ -586,19 +588,18 @@
     }
 
     .veille-container {
-    margin-top: 5%;
-    max-width: 80%; /* Augmenté à 80% de la largeur de l'écran */
-    width: 80%; /* Pour s'assurer que le conteneur prend cette largeur */
-    text-align: justify;
-    padding: 20px;
-    background-color: var(--second-bg-color);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+        width: 100%; /* Full-width */
+        padding: 10rem 9%; /* Same padding as other sections */
+        background-color: var(--second-bg-color);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        margin: 0 auto; /* Center it */
+        text-align: justify;
+        box-sizing: border-box; /* Include padding in width calculation */
+    }
+    
+    
+    
 
 .veille-title {
     font-size: 2.8rem;

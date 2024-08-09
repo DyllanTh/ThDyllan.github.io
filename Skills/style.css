@@ -19,21 +19,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     overflow-y: auto;
 }
 
 .skills-container {
-    max-width: 600px;
-    text-align: justify;
+    max-width: 650px;
+    width: 90%; /* Pour s'adapter à différentes tailles d'écran */
     padding: 20px;
     background-color: var(--second-bg-color);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: 20px; /* Pour ajouter un peu de marge autour du contenu */
 }
 
 .skills-title {
@@ -42,17 +39,19 @@ body {
     line-height: 1.3;
     color: var(--main-color);
     text-align: center;
+    margin-bottom: 20px; /* Espacement supplémentaire pour la lisibilité */
 }
 
 .skills-content {
     font-size: 1.6rem;
     text-align: justify;
     color: var(--text-color);
-    margin-bottom: 10px;
+    margin-bottom: 15px; /* Augmentation de la marge pour un espacement plus cohérent */
 }
 
 .skills-btn-container {
     text-align: center;
+    margin-top: 20px; /* Ajouter un espacement au-dessus du bouton */
 }
 
 .skills-btn {
@@ -67,5 +66,5 @@ body {
 }
 
 .skills-btn:hover {
-    background-color: darken(var(--main-color), 10%);
+    background-color: #0cc; /* Changement de la couleur au survol */
 }
